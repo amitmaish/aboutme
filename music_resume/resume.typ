@@ -4,6 +4,50 @@
 #let dots = box(width: 1fr)[#repeat(text(font: mono_font, "."))]
 #let space = box(width: 1fr)[#repeat(text(font: mono_font, " "))]
 
+#let ensembles = (
+  ([iai #footnote[CalArts Graduation Recital]], "CalArts", "Soloist", "2026"),
+  (
+    [Eurydice #footnote[CalArts Mid-residency Recital]],
+    "CalArts",
+    "Soloist",
+    "2026",
+  ),
+  ("Experimental Klesmer Ensemble", "CalArts", "Soloist/Guitar", "2025-2026"),
+  ("Period Instrument Ensemble", "CalArts", "Alto", "2025-2026"),
+  (
+    "Brass Ensemble Guest Vocalist",
+    [SBMA #footnote[South Bay Music Association]],
+    "Soloist",
+    "2025-2026",
+  ),
+  (
+    "Mean Girls",
+    [PVPAC #footnote[Palos Verdes Performing Arts Center - Norris Theater]],
+    "Guitar",
+    "2025",
+  ),
+  ("Divas ex Machina", "CalArts", "Soloist", "2025"),
+  ("Contemporary Vocal Ensemble", "CalArts", "Alto", "2025-2026"),
+  (
+    "Church Choir",
+    [UMC #footnote[United Methodist Church of Thousand Oaks]],
+    "Tenor",
+    "2024-2026",
+  ),
+  ("Vocal Ensemble", "Moorpark", "Alto", "2023-2024"),
+  ("Concert Choir", "Moorpark", "Alto/Tenor", "2022-2024"),
+  (
+    "Addams Family",
+    [Simi CAC #footnote[Simi Valley Cultural Arts Center]],
+    "Guitar",
+    "2023",
+  ),
+  ("Moorpark Acapella", "Moorpark", "Tenor", "2022-2023"),
+  ("Kinky Boots", "Moorpark", "Guitar", "2022"),
+  ("Cheach Billin", "Independent", "Guitar", "2019-2022"),
+  ("All State Honor Choir", "SCVA", "Tenor", "2020"),
+)
+
 #show link: it => {
   set text(fill: blue)
   underline(it)
@@ -52,82 +96,30 @@
   [
     _Name_
 
-    iai #footnote[CalArts Graduation Recital] #dots \
-    Eurydice #footnote[CalArts Mid-residency Recital] #dots \
-    Experimental Klesmer Ensemble #dots \
-    Period Instrument Ensemble #dots \
-    Brass Ensemble Guest Vocalist #dots \
-    Mean Girls #dots \
-    Divas ex Machina #dots\
-    Contemporary Vocal Ensemble #dots \
-    Church Choir #dots \
-    Vocal Ensemble #dots \
-    Concert Choir #dots \
-    Addams Family #dots \
-    Moorpark Acapella #dots \
-    Kinky Boots #dots \
-    Cheach Billin #dots \
-    All State Honor Choir #dots \
+    #for item in ensembles [
+      #item.at(0) #dots \
+    ]
   ],
   [
     _Organization_
 
-    CalArts #dots \
-    CalArts #dots \
-    CalArts #dots \
-    CalArts #dots \
-    SBMA #footnote[South Bay Music Association] #dots \
-    PVPAC #footnote[Palos Verdes Performing Arts Center - Norris Theater] #dots \
-    CalArts #dots \
-    CalArts #dots \
-    UMC #footnote[United Methodist Church of Thousand Oaks] #dots \
-    Moorpark #dots \
-    Moorpark #dots \
-    Simi CAC #footnote[Simi Valley Cultural Arts Center] #dots \
-    Moorpark #dots \
-    Moorpark #dots \
-    Independent #dots \
-    SCVA #dots \
+    #for item in ensembles [
+      #item.at(1) #dots \
+    ]
   ],
   [
     _Part_
 
-    Soloist #dots \
-    Soloist #dots \
-    Soloist/Guitar #dots \
-    Alto #dots \
-    Soloist #dots \
-    Guitar #dots \
-    Soloist #dots \
-    Alto #dots \
-    Tenor #dots \
-    Alto #dots \
-    Alto/Tenor #dots \
-    Guitar #dots \
-    Tenor #dots \
-    Guitar #dots \
-    Guitar #dots \
-    Tenor #dots \
+    #for item in ensembles [
+      #item.at(2) #dots \
+    ]
   ],
   [
     _Time_
 
-    2026 #space \
-    2026 #space \
-    2025/2026 #space \
-    2025 #space \
-    2025-2026 #space \
-    2025 #space \
-    2025-2026 #space \
-    2024-2026 #space \
-    2024-2026 #space \
-    2023-2024 #space \
-    2023-2024 #space \
-    2023 #space \
-    2022-2023 #space \
-    2022 #space \
-    2019-2022 #space \
-    2020 #space \
+    #for item in ensembles [
+      #item.at(3) #space \
+    ]
   ],
 )
 
