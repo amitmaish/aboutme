@@ -5,6 +5,13 @@
 #let space = box(width: 1fr)[#repeat(text(font: mono_font, " "))]
 
 #let ensembles = (
+  (
+    "8tps",
+    "8tps",
+    "Alto/Tenor",
+    "2026-Present",
+  ),
+  ("N.E.O.", [R.C. #footnote[The Resonance Collective]], "Alto/Tenor", "2026"),
   ([iai #footnote[CalArts Graduation Recital]], "CalArts", "Soloist", "2026"),
   (
     [Eurydice #footnote[CalArts Mid-residency Recital]],
@@ -26,7 +33,7 @@
     "Guitar",
     "2025",
   ),
-  ("Divas ex Machina", "CalArts", "Soloist", "2025"),
+  // ("Divas ex Machina", "CalArts", "Soloist", "2025"),
   ("Contemporary Vocal Ensemble", "CalArts", "Alto", "2025-2026"),
   (
     "Church Choir",
@@ -77,16 +84,18 @@
 #set page(margin: 1.5cm)
 
 #align(center)[
-  #block(spacing: 3.5em)
+  #block(spacing: 2.5em)
 
   = Amit Maish
 
-  == Tenor / Alto
+  == Alto / Tenor
   amit.maish1\@gmail.com \
   (818) 860-6459 \
 ]
 
 #set par(leading: 1.2em)
+
+Amit Maish is a vocalist, guitarist, and teacher. As a teacher, she aims to give her students the tools they need to become well rounded, informed musicians. She believes that giving students the tools they need to learn is the greatest gift she can give them.
 
 === Ensembles
 
@@ -123,7 +132,7 @@
   ],
 )
 
-#block(spacing: 2em)
+#block(spacing: 1.5em)
 
 === Education
 #grid(
