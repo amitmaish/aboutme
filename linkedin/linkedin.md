@@ -8,28 +8,19 @@ CompTIA Network+ Certified IT Engineer
 
 #### Information Technology Engineer (Apr 2022 -> now)
 
-- Set up the Network, Router, local DNS, and VPN
-- Configured backup to a local NAS and a Google Cloud bucket to maintain crucial company data
-- Manage a Samba server to provide Active Directory for a secure login across multiple devices
+At Lepton I am responsible for building robust systems to support the everyday operations of the company. I am responsible for the network administration, including managing a VPN for remote access. I manage Lepton's servers providing remote file access and active directory.
 
 ### Moorpark College
 
-#### Audio Lead (Feb 2024 -> Mar 2024)
+#### Audio Engineer & Light Designer (Jan 2022 -> May 2024)
 
-Audio Lead for the Moorpark PAC production of Sweeney Todd. Responsibilities included: programming the show, mixing the performances, training students in audio engineering, and interfacing with the cast and orchestra on monitoring.
+As an audio engineer at Moorpark College, I worked with the instrumental music department to reinforce the sound for their live concerts. I was also the lead audio engineer for the Moorpark PAC production of Sweeney Todd which saw me training students in audio engineering in addition to mixing the performances.
 
-#### Light Designer (Jan 2022 -> Jan 2024)
-
-Worked with the performing arts center to create stunning light displays for the shows.
-As the show control specialist, departments would reach out asking how to integrate show control into their performances.
+As a light designer I worked with the performing arts center to create stunning light displays for their shows. I was responsible for the automated show controls for many performances at Moorpark.
 
 #### Acapella Director (May 2022 -> May 2023)
 
 As the director for Moorpark's Acapella group, I was responsible for writing the music we performed, running the rehearsals, and organizing the shows.
-
-#### Audio Engineer (Apr 2022 -> Apr 2023)
-
-Worked with the instrumental music department to reinforce the sound for their live concerts.
 
 ### Bigger Hammer Production Services
 
