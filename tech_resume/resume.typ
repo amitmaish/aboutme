@@ -33,7 +33,7 @@
 #set text(size: 10.5pt)
 #set page(margin: 1.4cm)
 
-#let dots = box(width: 1fr)[#repeat(text(font: mono_font, "."))]
+#let dots = box(width: 1fr)[#repeat(text(font: mono_font, ".", size: 8pt))]
 #let subtitle(it) = [#it]
 
 // #let skill = it => box(
@@ -60,7 +60,7 @@
 
   = Amit Maish
   #subtitle(
-    [email: amit.maish1\@gmail.com --- phone: (818) 860-6459],
+    [Email: amit.maish1\@gmail.com --- Phone: (818) 860-6459],
   )
   #divider()
 ])
