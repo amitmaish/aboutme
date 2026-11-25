@@ -1,6 +1,8 @@
 #let font = "Atkinson Hyperlegible"
 #let mono_font = "JetBrainsMono NF"
 
+#show divider: set block(above: 0.5em, below: 0.5em)
+
 #show link: it => {
   set text(fill: blue)
   underline(it)
@@ -58,8 +60,9 @@
 
   = Amit Maish
   #subtitle(
-    [amit.maish1\@gmail.com --- (818) 860-6459],
+    [email: amit.maish1\@gmail.com --- phone: (818) 860-6459],
   )
+  #divider()
 ])
 
 CompTIA Network+ Certified IT engineer with experience in CS and Education. Enjoys working with colleagues to troubleshoot and solve technical problems. Proficient in system administration and software development in Rust, C/C++, Javascript, and Python.
