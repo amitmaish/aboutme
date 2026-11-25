@@ -1,7 +1,8 @@
 #let font = "Atkinson Hyperlegible"
 #let mono_font = "JetBrainsMono NF"
+#let color = oklch(32%, 0.2, 330deg)
 
-#show divider: set block(above: 0.5em, below: 0.5em)
+#show divider: set block(above: 0.5em, below: 0.5em, stroke: color)
 
 #show link: it => {
   set text(fill: blue)
@@ -9,13 +10,13 @@
 }
 
 #show heading.where(level: 1): it => {
-  set text(size: 18pt)
+  set text(size: 18pt, fill: color)
   it
 }
 
 #show heading.where(level: 2): it => {
   set align(center)
-  set text(size: 12pt)
+  set text(size: 12pt, fill: color)
   set block(above: 1.05em, below: 0.55em)
   show divider: set block(above: 0em, below: 0em)
 
@@ -60,7 +61,7 @@
 
   = Amit Maish
   #subtitle(
-    [Email: amit.maish1\@gmail.com --- Phone: (818) 860-6459],
+    [*Email: amit.maish1\@gmail.com --- Phone: (818) 860-6459*],
   )
   #divider()
 ])
